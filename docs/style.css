@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: tomato;
+  font-family: Fira Code;
+  text-align: center;
+}
+
+.grid .item {
+  border: 1px solid black;
+  background-color: white;
+  width: 2rem;
+  height: 0.5rem;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+.control {
+  display: flex;
+}
+button {
+  padding: 0.7rem;
+  width: 10rem;
+  font-family: JetBrains Mono;
+  border-radius: 1rem;
+  font-weight: bold;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+#clear {
+  margin-top: 0.4rem;
+}
